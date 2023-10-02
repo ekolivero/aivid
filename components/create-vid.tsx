@@ -75,6 +75,23 @@ export function CreateNewVideoPlaceholder({
             </Label>
           );
         })}
+        <button
+          onClick={() => {
+            fetch("/api/extract-audio", {
+              method: "POST",
+              body: JSON.stringify({
+                videoUrl:
+                  "https://utfs.io/f/ea5a3cd7-ed14-41fb-bbfe-063740705f74-1uswaj.mp4",
+              }),
+              headers: {
+                "Content-Type": "application/json",
+              },
+            });
+          }}
+        >
+          {" "}
+          Upload{" "}
+        </button>
       </div>
     </div>
   );

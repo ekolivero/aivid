@@ -1,0 +1,14 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "code": "ENOENT",
+    "err": {
+      "name": "pnpm",
+      "message": "not found: cli",
+      "code": "ENOENT",
+      "stack": "pnpm: not found: cli\n    at getNotFoundError (/Users/erik/.node/corepack/pnpm/6.23.1/dist/pnpm.cjs:36342:51)\n    at Function.whichSync [as sync] (/Users/erik/.node/corepack/pnpm/6.23.1/dist/pnpm.cjs:36419:13)\n    at getCommandAbsolutePathSync (/Users/erik/.node/corepack/pnpm/6.23.1/dist/pnpm.cjs:37984:44)\n    at default_1 (/Users/erik/.node/corepack/pnpm/6.23.1/dist/pnpm.cjs:37993:32)\n    at Object.handler [as dlx] (/Users/erik/.node/corepack/pnpm/6.23.1/dist/pnpm.cjs:129584:33)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async /Users/erik/.node/corepack/pnpm/6.23.1/dist/pnpm.cjs:134203:20\n    at async run (/Users/erik/.node/corepack/pnpm/6.23.1/dist/pnpm.cjs:134177:34)\n    at async runPnpm (/Users/erik/.node/corepack/pnpm/6.23.1/dist/pnpm.cjs:134389:5)\n    at async /Users/erik/.node/corepack/pnpm/6.23.1/dist/pnpm.cjs:134381:7"
+    }
+  }
+}
