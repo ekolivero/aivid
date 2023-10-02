@@ -48,6 +48,7 @@ export function CreateNewVideoPlaceholder({
             onClientUploadComplete={(res) => {
               if (!res) return;
               setVideo(res?.[0]);
+              console.log(res);
             }}
             onUploadError={(error: Error) => {
               alert(`ERROR! ${error.message}`);
@@ -81,7 +82,7 @@ export function CreateNewVideoPlaceholder({
               method: "POST",
               body: JSON.stringify({
                 videoUrl:
-                  "https://utfs.io/f/ea5a3cd7-ed14-41fb-bbfe-063740705f74-1uswaj.mp4",
+                  "https://utfs.io/f/c0d1bb2a-69e9-44d8-a455-e6ca4d9799e3-9ogosh.mov",
               }),
               headers: {
                 "Content-Type": "application/json",

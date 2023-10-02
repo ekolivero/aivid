@@ -10,8 +10,6 @@ export async function POST(request: Request) {
     },
   });
 
-  console.log(data);
-
   return Response.json({
     name: "erik",
   });
